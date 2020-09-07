@@ -5,7 +5,7 @@
 replicaCount: 5
 
 image:
-  repository: docker.bishkekdc.com/hello-world-dev-feature:11d48e7
+  repository: docker.bishkekdc.com/hello-world-dev-feature:86e1ebc
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
@@ -23,14 +23,14 @@ ingress:
     cert-manager.io/cluster-issuer: letsencrypt-prod
 
   hosts:
-    - host: hello.bishkekdc.com
+    - host: dev.hello.bishkekdc.com
       paths: 
       - /
 
   tls: 
   - secretName: wasssup-aidin
     hosts:
-      - hello.bishkekdc.com
+      - dev.hello.bishkekdc.com
 
 globalEnvironments:
   enabled: true
