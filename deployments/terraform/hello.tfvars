@@ -1,7 +1,0 @@
-credentials = "common-service-account.json"
-google_bucket_name = "aidin-bucket-fuchicorp"
-deployment_name = "hello-world"
-google_project_id = "neural-water-286202"
-google_domain_name = "bishkek.com"
-deployment_environment = "dev"
-GIT_TOKEN = "07b487f8bae2c64e8750451c21a99683abf9f1e7"
