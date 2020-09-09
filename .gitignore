@@ -5,6 +5,7 @@
 *.tfstate
 *.tfstate.*
 *.tfvars
+deployments/terraform/backend.tf
 
 # Crash log files
 crash.log
