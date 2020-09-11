@@ -4,6 +4,9 @@
 # .tfstate files
 *.tfstate
 *.tfstate.*
+*.tfvars
+deployments/terraform/backend.tf
+deployments/terraform/fuchicorp-service-account.json
 
 # Crash log files
 crash.log
